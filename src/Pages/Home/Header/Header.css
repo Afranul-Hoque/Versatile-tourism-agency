@@ -1,0 +1,14 @@
+.navbar-section{
+    background-color: rgba(0, 0, 0, 0.753);
+}
+.navbar-section a{
+    color:#fff;
+}
+.company-name{
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding-left: 1.5rem;
+}
+.toggle-icons{
+    color:#fff;
+}

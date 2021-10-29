@@ -1,0 +1,29 @@
+.banner-img{
+    height:570px;
+    
+}
+.banner-section{
+    background: rgb(36, 32, 32);
+}
+.banner-section img{
+    opacity:0.6;
+}
+
+.banner-description{
+    color:#fff;
+    margin-right:20em;
+    margin-bottom:13em;
+    
+}
+.tour-duration{
+    color: rgb(230, 102, 28);
+    font-size: 2rem;
+    font-weight: bold;
+}
+.banner-description h5{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.banner-description p{
+    font-size: 20px;
+}
