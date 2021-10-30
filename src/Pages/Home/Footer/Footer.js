@@ -46,9 +46,9 @@ const Footer = () => {
 
                         <div className="mt-3">
                             <span><i class="fas fa-map-marker-alt pe-3"></i></span>
-                            <span>2752 Willison Street</span>
+                            <span>13/D Hospital Road,</span>
 
-                            <span> Eagan, United State</span>
+                            <span> Mirpur, Dhaka</span>
                         </div>
                     </div>
                 </div>
