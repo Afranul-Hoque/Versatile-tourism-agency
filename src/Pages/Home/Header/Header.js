@@ -1,8 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import useAuth from '../../../Hooks/useAuth';
 import './Header.css'
 
 const Header = () => {
+    const { user, logoutUsingGoogle } = useAuth();
     return (
         <div className="navbar-section">
 
@@ -18,7 +20,16 @@ const Header = () => {
                             <Link to="/home" className=" text-white nav-link ">services</Link>
                             <Link to="/home" className=" text-white  nav-link ">Home</Link>
                             <Link to="/contact" className="text-white   nav-link "> Contact</Link>
-                            <Link to="/login" className="text-white   nav-link "> <i className="fas fa-user pe-1"></i>Login</Link>
+                            {
+                                user.email && <span><Link to="/home" className="nav-link active">{user.displayName}</Link></span>
+                            }
+
+                            {
+                                user.email ?
+                                    <Link to="/home" onClick={logoutUsingGoogle} className="text-white   nav-link "> <i className="fas fa-user pe-1"></i>Log out</Link>
+                                    :
+                                    <Link to="/login" className="text-white   nav-link "> <i className="fas fa-user pe-1"></i>Login</Link>
+                            }
 
                         </ul>
 
