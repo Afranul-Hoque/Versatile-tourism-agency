@@ -38,14 +38,14 @@ const Footer = () => {
                             <span>0170000000</span>
                         </div>
                         <div className="mt-3">
-                            <span><i class="fas fa-envelope pe-3"></i></span>
+                            <span><i className="fas fa-envelope pe-3"></i></span>
                             <span> info@gmail.com ,</span>
 
                             <span> support@gmail.com</span>
                         </div>
 
                         <div className="mt-3">
-                            <span><i class="fas fa-map-marker-alt pe-3"></i></span>
+                            <span><i className="fas fa-map-marker-alt pe-3"></i></span>
                             <span>13/D Hospital Road,</span>
 
                             <span> Mirpur, Dhaka</span>

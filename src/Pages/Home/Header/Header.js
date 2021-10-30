@@ -18,7 +18,7 @@ const Header = () => {
                         <ul className="navbar-nav ms-auto my-2 my-lg-0 navbar-nav-scroll" >
                             <Link to="/home" className="   nav-link active">Home</Link>
                             <Link to="/home" className=" text-white nav-link ">services</Link>
-                            <Link to="/home" className=" text-white  nav-link ">Home</Link>
+                            <Link to="/booking" className=" text-white  nav-link ">Booking</Link>
                             <Link to="/contact" className="text-white   nav-link "> Contact</Link>
                             {
                                 user.email && <span><Link to="/home" className="nav-link active">{user.displayName}</Link></span>

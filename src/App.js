@@ -8,10 +8,13 @@ import Home from './Pages/Home/Home/Home';
 import Contact from './Pages/Contact/Contact';
 import Login from './Pages/Login/Login';
 import AuthProvider from './Context/AuthProvider';
+import Booking from './Pages/Booking/Booking';
+import PrivateRoute from './PrivateRoute/PrivateRoute';
+import PagenotFound from './Pages/PagentFound/PagenotFound';
 
 function App() {
   return (
-    <div className="App">
+    <div>
 
       <AuthProvider>
         <Router>
@@ -28,6 +31,12 @@ function App() {
 
             <Route path="/login">
               <Login></Login>
+            </Route>
+            <PrivateRoute path="/booking">
+              <Booking></Booking>
+            </PrivateRoute>
+            <Route path="*">
+              <PagenotFound></PagenotFound>
             </Route>
 
           </Switch>
