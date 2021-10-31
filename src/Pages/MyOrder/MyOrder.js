@@ -4,7 +4,7 @@ import SingleOrder from '../SingleOrder/SingleOrder';
 const MyOrder = () => {
     const [allorders, setAllorders] = useState([]);
     useEffect(() => {
-        fetch('http://localhost:5000/userService')
+        fetch('https://chilling-spell-24897.herokuapp.com/userService')
             .then(res => res.json())
             .then(data => setAllorders(data))
     }, [])

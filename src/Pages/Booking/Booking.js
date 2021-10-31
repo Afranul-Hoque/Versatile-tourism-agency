@@ -15,7 +15,7 @@ const Booking = () => {
     // form submit
     const onSubmit = data => {
         console.log(data);
-        axios.post('http://localhost:5000/userService', data)
+        axios.post('https://chilling-spell-24897.herokuapp.com/userService', data)
             .then(res => {
                 if (res.data.insertedId) {
                     alert('Contact form fillup successfully');

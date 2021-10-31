@@ -4,7 +4,7 @@ import ManagesOrders from '../ManagesOrders/ManagesOrders';
 const ManageOrder = () => {
     const [manages, setManages] = useState([]);
     useEffect(() => {
-        fetch('http://localhost:5000/userService')
+        fetch('https://chilling-spell-24897.herokuapp.com/userService')
             .then(res => res.json())
             .then(data => setManages(data))
     }, [])
