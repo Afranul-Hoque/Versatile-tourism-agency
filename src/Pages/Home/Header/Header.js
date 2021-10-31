@@ -17,9 +17,13 @@ const Header = () => {
                     <div className="collapse navbar-collapse navbar-link" id="navbarScroll">
                         <ul className="navbar-nav ms-auto my-2 my-lg-0 navbar-nav-scroll" >
                             <Link to="/home" className="   nav-link active">Home</Link>
-                            <Link to="/home" className=" text-white nav-link ">services</Link>
-                            <Link to="/booking" className=" text-white  nav-link ">Booking</Link>
-                            <Link to="/contact" className="text-white   nav-link "> Contact</Link>
+                            <Link to="/allService" className=" text-white nav-link ">Services</Link>
+
+
+                            <Link to="/myorder" className=" text-white nav-link ">MyPackege</Link>:
+
+                            <Link to="/gallery" className=" text-white nav-link ">Gallery</Link>:
+
                             {
                                 user.email && <span><Link to="/home" className="nav-link active">{user.displayName}</Link></span>
                             }
@@ -27,6 +31,7 @@ const Header = () => {
                             {
                                 user.email ?
                                     <Link to="/home" onClick={logoutUsingGoogle} className="text-white   nav-link "> <i className="fas fa-user pe-1"></i>Log out</Link>
+
                                     :
                                     <Link to="/login" className="text-white   nav-link "> <i className="fas fa-user pe-1"></i>Login</Link>
                             }

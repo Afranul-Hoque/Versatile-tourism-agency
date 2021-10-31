@@ -6,9 +6,9 @@ import './Bestdestination.css'
 
 const Bestdestination = () => {
     return (
-        <div className="mt-5 py-3 text-center">
+        <div className="mt-5 py-3 text-center destination-section">
             <h3 className="best-camping">Upcomming Best Camping Tour</h3>
-            <div className=" my-5 mx-5  destination-section">
+            <div className=" my-5 mx-5  destination">
                 <div className="mb-5 text-center">
 
                     <h3 className="best-destination">See Our Best Popular Destinations

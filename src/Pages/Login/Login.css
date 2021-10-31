@@ -1,0 +1,14 @@
+.login-account{
+    color: rgb(25, 25, 78);
+    margin-bottom: 20px;
+
+}
+.google-sign{
+    border:none;
+    background-color: rgb(19, 18, 97);
+    color:#fff;
+    padding:10px;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    margin-bottom: 150px;
+}

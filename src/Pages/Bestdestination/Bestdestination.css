@@ -1,5 +1,7 @@
-
-.destination-section {
+.destination-section{
+    overflow:hidden;
+}
+.destination {
     background-image: url(../../Images/serviceimg/kashmir.jpg);  
 }
 .best-destination{

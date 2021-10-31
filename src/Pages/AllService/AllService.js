@@ -5,13 +5,13 @@ import './AllService.css'
 const AllService = () => {
     const [services, setServices] = useState([]);
     useEffect(() => {
-        fetch('http://localhost:5000/services')
+        fetch('https://chilling-spell-24897.herokuapp.com/services')
             .then(res => res.json())
             .then(data => setServices(data))
     }, [])
 
     return (
-        <div>
+        <div className="allService-section">
             <div className=" my-5 pb-4">
                 <div className="mb-5 text-center">
                     <h5 className="choose-package">Choose Your Package</h5>
