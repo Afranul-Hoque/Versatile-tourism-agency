@@ -18,7 +18,7 @@ const AllService = () => {
                     <h3 className="package">Select Best Package For Your Travel</h3>
                 </div>
 
-                <div className="row row row-cols-1 row-cols-md-3 g-4">
+                <div className="row row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
                     {
                         services.map(service => <Services
                             key={service._id}
