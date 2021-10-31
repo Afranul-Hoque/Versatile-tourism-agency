@@ -20,9 +20,11 @@ const Header = () => {
                             <Link to="/allService" className=" text-white nav-link ">Services</Link>
 
 
-                            <Link to="/myorder" className=" text-white nav-link ">MyPackege</Link>:
+                            <Link to="/myorder" className=" text-white nav-link ">MyPackege</Link>
 
-                            <Link to="/gallery" className=" text-white nav-link ">Gallery</Link>:
+                            <Link to="/manageorder" className=" text-white nav-link ">Manage-Order</Link>
+
+                            <Link to="/gallery" className=" text-white nav-link ">Gallery</Link>
 
                             {
                                 user.email && <span><Link to="/home" className="nav-link active">{user.displayName}</Link></span>

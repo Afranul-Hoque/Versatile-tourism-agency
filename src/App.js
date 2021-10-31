@@ -15,6 +15,7 @@ import Footer from './Pages/Home/Footer/Footer';
 import AllService from './Pages/AllService/AllService';
 import MyOrder from './Pages/MyOrder/MyOrder';
 import Gallery from './Pages/Gallery/Gallery';
+import ManageOrder from './Pages/ManageOrder/ManageOrder';
 
 
 function App() {
@@ -42,6 +43,14 @@ function App() {
               <MyOrder></MyOrder>
               <Footer></Footer>
             </PrivateRoute>
+
+            <PrivateRoute path="/manageorder">
+              <Header></Header>
+              <ManageOrder></ManageOrder>
+              <Footer></Footer>
+            </PrivateRoute>
+
+
             <Route path="/gallery">
               <Header></Header>
               <Gallery></Gallery>

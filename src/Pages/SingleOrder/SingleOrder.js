@@ -2,7 +2,7 @@ import React from 'react';
 
 const SingleOrder = (props) => {
     console.log(props);
-    const { Username, address, packege, Opinion, phone, Duration } = props.allorder;
+    const { Username, address, packege, phone, Duration } = props.allorder;
 
     return (
         <div className=" mt-5">
@@ -13,7 +13,7 @@ const SingleOrder = (props) => {
                         <h3 className="card-title">Name: {Username}</h3>
                         <h6>Address: {address}</h6>
                         <span> <span className="cost">Venue: {packege}</span></span>
-                        <h4>{phone}</h4>
+                        <h4>Contact-Number: {phone}</h4>
                         <span> <span className="duration">
                             Duration: {Duration}</span></span>
                     </div>
