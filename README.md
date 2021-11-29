@@ -12,6 +12,9 @@ This is the world class Agency for Tour. Versatile Tourism Agency help customers
 * A user can choose his best package and book it if he logs into this website.
 * A user can see all his booking packages and update or delete his order if he wants.
 
+### `Technology `
+React, Bootstrap, Firebase, hook-form, MongoDB, Heroku, Express, Node js
+
 ### `Why you choose us?`
 
 1. First and important reason , our guide give you best choose, best place and always try to fulfil your requirments which you need. 
