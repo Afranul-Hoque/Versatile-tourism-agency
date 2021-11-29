@@ -5,9 +5,12 @@ This project was bootstrapped with [Versatile Tourism Agency](https://versatile-
 ## About Versatile Tourism Agency
 
 This is the world class Agency for Tour. Versatile Tourism Agency help customers to fulfill their dream. They know hume amount of people like travels but they always face many problems . We ensure them , our guide/team always give them a happy tour with all services.
-### `Our services`
+### `Key Features`
 
-There are 2000+ Guide are work with here. They always ready to give best apport for the people . We give many services to our tourist like camping, riding, hill tracking, sea visit etc.
+Firebase Authentication(using Google) for login. All data is saved in MongoDB.
+A user can choose his best package and book it if he logs into this website.
+A user can see all his booking packages and update or delete his order if he wants.
+
 
 ### `Why you choose us?`
 
